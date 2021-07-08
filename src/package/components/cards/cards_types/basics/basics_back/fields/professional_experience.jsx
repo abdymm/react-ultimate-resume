@@ -26,7 +26,7 @@ export const ExperienceYears = ({ experienceYears, codeExperienceYears }) => {
     return (
         <FormattedMessage
             id="Basics.Back.ExperienceYear.value"
-            defaultMessage={'{experienceYears, plural, one {# year} other {# years} }  of experience'}
+            defaultMessage={'{experienceYears, plural, one {# year} other {# years} }'}
             values={{ experienceYears }}
         />
     );
